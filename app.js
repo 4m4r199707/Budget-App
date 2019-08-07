@@ -245,7 +245,7 @@ var controller = (function(budgetCtrl, UICtrl) {
 
         if (itemID) {
             //inc-1
-            splitID = itemID.splitID('-');
+            splitID = itemID.split('-');
             type = splitID[0];
             ID = splitID[1];
 
